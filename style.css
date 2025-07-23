@@ -22,6 +22,9 @@
 .primary-btn{
     background-color: #E95A08;
     color: white;
+    height: 50px;
+    width: 171px;
+    border: none;
 }
 
 .dark-1{
@@ -92,16 +95,21 @@
     .banner-title{
         margin-bottom: 15px;
     }
+    .banner-description{
+        width: calc(100% - 10px);
+        padding: 0 10px;
+    }
     .banner img{
         height: 245px;
-        width: 393px;
+        width: 100%;
     }
 
     /* plants section style  */
     .plants{
         height: auto;
-        width: 393px;
+        width:calc(100% - 10px);
         text-align: center;
+        margin: 10px;
     }
 
     .section-title{
@@ -111,13 +119,32 @@
     }
     .section-description{
         display: inline-block;
-        width: 336px;
+        width: calc(100% - 20px);
+        padding: 0 20px;
         margin-bottom: 15px;
     }
     .plant-content{
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(2,1fr);
         grid-template-rows: repeat(4,1fr);
+        
+        gap: 15px;
+        width: calc(100% - 15px - 10px);
+    }
+    .plant-item{
+        width: 171px;
+        height: 340px;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .plant-content img{
+        height: 196px;
+        width: 165px;
+    }
+
+    .flower-name , .flower-price{
+        font-weight: 600;
+        margin-bottom: 10px;
     }
 
 
