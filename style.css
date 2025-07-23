@@ -107,21 +107,25 @@
     /* plants section style  */
     .plants{
         height: auto;
-        width:calc(100% - 10px);
-        text-align: center;
+        width:calc(100% - 20px);
         margin: 10px;
+        text-align: center;
+        margin-bottom: 50px;
     }
 
     .section-title{
         font-size: 24px;
         font-weight: bold;
         margin-bottom: 15px;
+        padding: 10px;
     }
     .section-description{
+        
         display: inline-block;
-        width: 336px;
+        width: calc(100% - 20px);
+        
         padding: 10px;
-        margin: 0 auto 15px;
+        margin: 0 auto;
     }
     .plant-content{
         display: grid;
@@ -130,6 +134,7 @@
         
         gap: 15px;
         width: calc(100% - 15px - 10px);
+        margin: 0 auto;
     }
     .plant-item{
         width: 171px;
@@ -147,6 +152,27 @@
         margin-bottom: 10px;
     }
 
+    /* plant store style  */
+
+    .flower-store{
+        flex-direction: column;
+        gap: 20px;
+        text-align: left;
+        margin-bottom: 100px;
+    }
+    .store-flower-1{
+        width: calc(100% - 10px);
+        padding: 10px;
+        
+    }
+    .store-flower-2{
+        display: none;
+    }
+    .section-content ul{
+        
+        list-style-position:outside;
+        list-style-type: disc;
+    }
 
 
 
