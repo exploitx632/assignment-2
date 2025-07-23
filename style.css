@@ -60,12 +60,13 @@
     .cart-logo{
         height: 24px;
         width: 24px;
-        display: inline-block;
+        font-size: 24px;
     }
     .cart-price{
-        font-size: 20px;
+        padding: 3px;
+        font-size: 18px;
         height: 24px;
         width: 79px;
-        display: inline-block;
+        
     } 
 }
