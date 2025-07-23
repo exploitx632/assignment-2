@@ -34,10 +34,17 @@
 .dark-3{
     color: #111111;
 }
+.flex{
+    display: flex;
+}
 
 
-/* nav bar  */
+
 @media screen and (max-width:576px) {
+    /* nav bar  */
+    header{
+        margin-bottom: 50px;
+    }
     nav{
         width: 361px;
         height: 38px;
@@ -69,4 +76,60 @@
         width: 79px;
         
     } 
+
+    /* banner-style */
+    .banner{
+        height: auto;
+        width: 100%;
+        text-align: left;
+        padding: 15px;
+        
+    }
+    .banner{
+        flex-direction: column-reverse;
+        gap: 30px;
+    }
+    .banner-title{
+        margin-bottom: 15px;
+    }
+    .banner img{
+        height: 245px;
+        width: 393px;
+    }
+
+    /* plants section style  */
+    .plants{
+        height: auto;
+        width: 393px;
+        text-align: center;
+    }
+
+    .section-title{
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 15px;
+    }
+    .section-description{
+        display: inline-block;
+        width: 336px;
+        margin-bottom: 15px;
+    }
+    .plant-content{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(4,1fr);
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
