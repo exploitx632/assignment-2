@@ -94,7 +94,7 @@ nav{
 /* plants style  */
 .plants{
     width: 1140px;
-    margin: 0 auto 100px;
+    margin: 0 auto 200px;
     text-align: center;
     
 }
@@ -134,6 +134,35 @@ nav{
 .add-to-cart{
     width: 100%;
     font-weight: 600;
+}
+/* flower store style  */
+
+.flower-store{
+    width: 1140px;
+    height: 597px;
+    margin: 0 auto;
+}
+.flower-content{
+    width: 540px;
+    height: 521px;
+}
+.flower-content ul{
+    padding-left: 20px;
+}
+.flower-content ul li{
+    padding: 0;
+
+}
+ .store-flower-1{
+    width: 540px;
+}
+.store-flower-2{
+    height: 286px;
+    width: 286px;
+    position: relative;
+    margin-top: -140px;
+    margin-left: -150px;
+
 }
 
 
