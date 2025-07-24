@@ -271,60 +271,65 @@
      align-items: center;
      color: white;
  }
- .join-to-bunch > h2{
-    font-size: 50px;
+
+ .join-to-bunch>h2 {
+     font-size: 50px;
  }
- .input-section input{
-    height: 50px;
-    width: 644px;
-    border: none;
-    padding:0 20px;
+
+ .input-section input {
+     height: 50px;
+     width: 644px;
+     border: none;
+     padding: 0 20px;
  }
- .input-section input::placeholder{
-    color: #00000080;
+
+ .input-section input::placeholder {
+     color: #00000080;
  }
 
  /* footer style  */
- footer{
-    height: 348px;
-    padding: 50px;
-    justify-content: center;
-    align-items: flex-start;
-    gap: 30px;
+ footer {
+     height: 348px;
+     padding: 50px;
+     justify-content: center;
+     align-items: flex-start;
+     gap: 30px;
 
  }
-.footer-logo img{
-    margin-bottom: 20px;
-}
- .footer-description{
-    width: 350px;
- }
- .links ul{
-    height: 248px;
-    display: grid;
-    grid-template-columns: repeat(2 , 1fr);
-    grid-template-rows: repeat(5,1fr);
-    gap: 30px;
-    list-style: none;
- }
- .links ul a{
-    text-decoration: none;
-    color: #00000080;
+
+ .footer-logo img {
+     margin-bottom: 20px;
  }
 
- .icons{
-    width: 220px;
-    justify-content: space-between;
-    align-items: center;
+ .footer-description {
+     width: 350px;
+ }
+
+ .links ul {
+     height: 248px;
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     grid-template-rows: repeat(5, 1fr);
+     gap: 30px;
+     list-style: none;
+ }
+
+ .links ul a {
+     text-decoration: none;
+     color: #00000080;
+ }
+
+ .icons {
+     width: 220px;
+     justify-content: space-between;
+     align-items: center;
  }
 
 
  @media screen and (max-width:576px) {
 
      /* nav bar  */
-     header {
-         margin-bottom: 50px;
-     }
+
 
      nav {
          width: 361px;
@@ -333,6 +338,9 @@
          justify-content: space-between;
          align-items: center;
          margin: 30px auto;
+     }
+     .hidden{
+        display: none;
      }
 
      .nav-logo img {
@@ -367,22 +375,31 @@
          height: auto;
          width: 100%;
          text-align: left;
+         flex-direction: column-reverse;
+         gap: 30px;
+         align-items: flex-start;
+         margin: 0 auto 40px;
 
      }
 
-     .banner {
-         flex-direction: column-reverse;
-         gap: 30px;
+     .banner-content {
+         width: 100%;
+         height: auto;
+        padding: 10px;
      }
 
      .banner-title {
          margin-bottom: 15px;
-         padding: 10px;
+         padding-right: 100px;
+         font-size: 24px;
+         font-weight: bold;
      }
 
      .banner-description {
          width: calc(100% - 10px);
          padding: 0 10px;
+         font-size: 14px;
+         text-align: left;
      }
 
      .banner img {
@@ -396,7 +413,7 @@
          width: calc(100% - 20px);
          margin: 10px;
          text-align: center;
-         margin-bottom: 50px;
+         margin-bottom: 100px;
      }
 
      .section-title {
@@ -410,7 +427,7 @@
 
          display: inline-block;
          width: calc(100% - 20px);
-
+        font-size: 14px;
          padding: 10px;
          margin: 0 auto;
      }
@@ -439,19 +456,41 @@
 
      .flower-name,
      .flower-price {
-         font-weight: 600;
          margin-bottom: 10px;
+     }
+     .flower-name{
+        font-size: 16px;
+        font-weight: 300;
+     }
+     .flower-price{
+        font-size: 16px;
+        font-weight: bold;
      }
 
      /* plant store style  */
 
      .flower-store {
          width: 100%;
+         height: auto;
          padding: 0 10px;
          flex-direction: column;
          gap: 20px;
          text-align: left;
-         margin-bottom: 100px;
+         margin-bottom: 50px;
+     }
+
+     .flower-content {
+         width: 100%;
+         height: auto;
+     }
+
+     .flower-content>h2 {
+         font-size: 24px;
+     }
+
+     .flower-content ul li {
+         font-size: 14px;
+         margin-bottom: 10px;
      }
 
      .store-flower-1 {
@@ -467,17 +506,31 @@
      /* deal section  */
 
      .deal {
+         width: 100%;
          text-align: center;
          margin-bottom: 50px;
      }
 
+     .deal>h2 {
+         font-size: 24px;
+     }
+
+     .deal>p {
+         font-size: 14px;
+         padding: 10px;
+     }
+
      .deal-content {
          width: 100%;
+         height: auto;
          padding: 15px;
+         display: flex;
+         flex-direction: column;
+         align-items: center;
      }
 
      .item-size {
-         height: 206px;
+         height: 184px;
          width: 100%;
          display: flex;
          flex-direction: column;
@@ -496,7 +549,8 @@
          font-weight: bold;
      }
 
-     .shop-btn {
+     .item-1 , .item-2, .item-3 > .shop-btn {
+         font-size: 16px;
          font-weight: bold;
          background-color: transparent;
          border: none;
@@ -514,6 +568,9 @@
          justify-content: center;
          color: white;
          margin-bottom: 50px;
+     }
+     .join-to-bunch > h2{
+        font-size: 20px;
      }
 
      .input-section {
@@ -540,10 +597,13 @@
 
      footer {
          padding: 10px;
+         flex-direction: column;
+         height: auto;
+         gap: 10px;
      }
 
      .footer-logo {
-         height: 109px;
+         height: auto;
          width: 180px;
      }
 
@@ -555,6 +615,7 @@
      .links ul {
          display: flex;
          flex-direction: column;
+         height: auto;
          gap: 20px;
          list-style: none;
          margin-bottom: 30px;
