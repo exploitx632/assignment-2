@@ -80,6 +80,7 @@ nav{
 .banner-title{
     font-size: 65px;
     font-weight: bold;
+    margin-bottom: 13px;
 }
 .banner-description{
     font-size: 22px;
@@ -91,7 +92,49 @@ nav{
 }
 
 /* plants style  */
+.plants{
+    width: 1140px;
+    margin: 0 auto 100px;
+    text-align: center;
+    
+}
+.section-title{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 13px;
+}
+.section-description{
+    font-size: 22px;
+    padding: 0 180px;
+    margin-bottom: 50px;
+}
+.plant-content{
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    grid-template-rows: repeat(2 , 1fr);
+    gap: 20px;
+}
+.plant-item{
+    flex-direction: column;
+    gap: 20px;
+}
+.item-description .flower-name{
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #111111;
+}
+.flower-price{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
 
+}
+
+.add-to-cart{
+    width: 100%;
+    font-weight: 600;
+}
 
 
 
