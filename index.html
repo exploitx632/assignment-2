@@ -31,14 +31,23 @@
 
 <body>
     <header>
-        <nav>
+        <nav class="flex">
             <div class="nav-logo">
                 <img src="assets/logo.png" alt="">
             </div>
-            <div class="nav-cart">
-                <span class="cart-logo"><i class="fa-solid fa-cart-shopping fa-2xs" style="color: #000000;"></i></span>
-                <span class="cart-price">Cart($56)</span>
-            </div>
+
+            <ul class="nav-links flex">
+                <li><a href=""  class="home">Home</a></li>
+                <li><a href="">Shop</a></li>
+                <li><a href="">About Us</a></li>
+                <li class="nav-cart">
+                    <span class="cart-logo"><i class="fa-solid fa-cart-shopping fa-2xs"
+                            style="color: #000000;"></i></span>
+                    <span class="cart-price">Cart($56)</span>
+                </li>
+            </ul>
+
+
         </nav>
         <div class="banner flex ">
             <div class="banner-content">
@@ -170,7 +179,8 @@
     </main>
     <footer>
         <div class="footer-logo"><img src="assets/logo.png" alt=""></div>
-        <p class="footer-description dark-2 inter">Indulge your senses with the beauty and fragrance of our fresh flower shop. </p>
+        <p class="footer-description dark-2 inter">Indulge your senses with the beauty and fragrance of our fresh flower
+            shop. </p>
         <div class="links">
             <ul>
                 <li><a href="">Home</a></li>
@@ -186,7 +196,8 @@
             </ul>
         </div>
         <div class="icons">
-            <img src="assets/icon-linkedin.png" alt=""><img src="assets/icon-twitter.png" alt=""><img src="assets/icon-facebook.png" alt="">
+            <img src="assets/icon-linkedin.png" alt=""><img src="assets/icon-twitter.png" alt=""><img
+                src="assets/icon-facebook.png" alt="">
             <img src="assets/icon-youtube.png" alt="">
         </div>
     </footer>
