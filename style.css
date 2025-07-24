@@ -170,6 +170,7 @@
         display: none;
     }
 
+
     /* deal section  */
     
     .deal{
@@ -246,7 +247,37 @@
         width: 103px;
     }
 
+    /* footer style  */
 
+    footer{
+        padding: 10px;
+    }
+    .footer-logo{
+        height: 109px;
+        width: 180px;
+    }
+    .footer-description{
+        width: 359px;
+        margin-bottom: 20px;
+    }
+    .links ul{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        list-style: none;
+        margin-bottom: 30px ;
+
+    }
+    .links a{
+        text-decoration: none;
+        color: #716f6fd4;
+    }
+    .icons{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 20px;
+    }
 
 
 
