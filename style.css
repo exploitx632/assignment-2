@@ -265,6 +265,23 @@
      background-image: url(assets/news-letter-bg.png);
      background-size: cover;
      background-repeat: no-repeat;
+     height: 530px;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     color: white;
+ }
+ .join-to-bunch > h2{
+    font-size: 50px;
+ }
+ .input-section input{
+    height: 50px;
+    width: 644px;
+    border: none;
+    padding:0 20px;
+ }
+ .input-section input::placeholder{
+    color: #00000080;
  }
 
 
