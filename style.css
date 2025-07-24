@@ -582,6 +582,7 @@
          width: 218px;
          padding: 15px;
          border: none;
+         border-radius: none;
      }
 
      input::placeholder {
