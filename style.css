@@ -83,7 +83,7 @@
     /* banner-style */
     .banner{
         height: auto;
-        width: calc(100% - 15px);
+        width: 100%;
         text-align: left;
         
     }
@@ -132,19 +132,19 @@
         grid-template-columns: repeat(2,1fr);
         grid-template-rows: repeat(4,1fr);
         
-        gap: 15px;
-        width: calc(100% - 15px - 10px);
+        gap: 20px;
+        width: 100%;
         margin: 0 auto;
     }
     .plant-item{
-        width: 171px;
+        width: 100%;
         height: 340px;
         flex-direction: column;
         justify-content: space-between;
     }
     .plant-content img{
         height: 196px;
-        width: 171px;
+        width: 100%;
     }
 
     .flower-name , .flower-price{
@@ -155,26 +155,68 @@
     /* plant store style  */
 
     .flower-store{
+        width: 100%;
+        padding: 0 10px;
         flex-direction: column;
         gap: 20px;
         text-align: left;
         margin-bottom: 100px;
     }
     .store-flower-1{
-        width: calc(100% - 10px);
-        padding: 10px;
+        width:100%;
         
     }
     .store-flower-2{
         display: none;
     }
-    .section-content ul{
+
+    /* deal section  */
+    
+    .deal{
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .deal-content{
+       width: 100%;
+       padding: 15px;
+    }
+    .item-size{
+        height: 206px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 15px;
+        color: white;
+    }
+    .item-1{
+        background-image:linear-gradient(360deg,hsla(0, 0%, 0%, 0.5),hsla(0, 0%, 0%, 0.5)), url(assets/deal-bloom.png);
         
-        list-style-position:outside;
-        list-style-type: disc;
+    }
+    .item-2{
+        background-image:linear-gradient(360deg,hsla(0, 0%, 0%, 0.5),hsla(0, 0%, 0%, 0.5)), url(assets/deal-ana.png);
+    }
+    .item-3{
+        background-image:linear-gradient(360deg,hsla(0, 0%, 0%, 0.5),hsla(0, 0%, 0%, 0.5)), url(assets/deal-zabo.png);
     }
 
-
+    /* join section  */
+    .join-to-bunch{
+        height: 275px;
+        width: 100%;
+        background-image: url(assets/news-letter-bg.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
 
 
 
