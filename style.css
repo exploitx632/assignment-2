@@ -66,6 +66,32 @@ nav{
     color: #000;
 }
 
+/* banner style  */
+.banner{
+    width: 1140px;
+    height: 461px;
+    margin: 0 auto 100px;
+    align-items: flex-end;
+}
+.banner-content{
+    height: 299px;
+    width: 50%;
+}
+.banner-title{
+    font-size: 65px;
+    font-weight: bold;
+}
+.banner-description{
+    font-size: 22px;
+
+}
+.banner > img{
+    height: 355px;
+    width: 50%;
+}
+
+/* plants style  */
+
 
 
 
